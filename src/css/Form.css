@@ -1,0 +1,31 @@
+.form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form input {
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Pretendard';
+    border: 1px solid #aaa;
+}
+
+.form input::placeholder {
+    color: #aaa;
+}
+
+.form button {
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 17px 0;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Pretendard';
+    background-color: #222;
+    cursor: pointer;
+}
